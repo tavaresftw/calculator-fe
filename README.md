@@ -5,6 +5,7 @@
 - React
 
 ## Installation
+#(To run it locally, use the DEVELOP Branch)
 
 1. Clone the repository: `git clone https://github.com/tavaresftw/calculator-fe.git`
 2. Navigate to the project directory: `cd calculator-fe`
