@@ -1,0 +1,227 @@
+/* Estilo global para o corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; /* Tamanho de fonte padrão */
+}
+
+/* Estilo para a tela de login */
+.container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #f4f4f4;
+}
+
+.box {
+  width: 300px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.box h1 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.message {
+  margin-top: 20px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Estilo para o cabeçalho de navegação */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #007bff;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.navbar-text {
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+/* Estilo para o container principal */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo para o título das páginas */
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #343a40;
+  font-size: 2rem; /* Tamanho de fonte consistente */
+}
+
+/* Estilo para os botões */
+.btn {
+  border-radius: 0.25rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+}
+
+/* Estilo para a tabela de registros */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  background-color: #e9ecef;
+}
+
+/* Estilo para os inputs e selects */
+.form-control,
+.form-select {
+  border-radius: 0.25rem;
+}
+
+/* Estilo para centralizar o conteúdo da página Calculator */
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Espaço suficiente para o Menu acima */
+  padding: 20px;
+}
+
+/* Estilo para o Menu na página Calculator */
+.menu-spacing {
+  margin-bottom: 20px;
+}
+
+/* Estilo para centralizar a tabela na página Records */
+.records-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Estilo para mensagens */
+.message {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #28a745; /* Verde para mensagens de sucesso */
+  margin: 20px 0;
+}
+
+.container-menu-tes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #f4f4f4;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.table-container {
+  margin-top: 20px; /* Adiciona margem superior para separar a tabela do restante do conteúdo */
+  width: 100%; /* Garante que a tabela ocupe toda a largura disponível */
+}
+
+.table {
+  width: 100%; /* Garante que a tabela ocupe toda a largura disponível */
+  border-collapse: collapse; /* Remove espaços entre as células da tabela */
+}
+
+.table th, .table td {
+  border: 1px solid #ddd; /* Adiciona borda às células da tabela */
+  padding: 8px; /* Adiciona padding às células da tabela */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.table th {
+  background-color: #f2f2f2; /* Adiciona cor de fundo aos cabeçalhos da tabela */
+  font-weight: bold; /* Deixa o texto dos cabeçalhos em negrito */
+}
