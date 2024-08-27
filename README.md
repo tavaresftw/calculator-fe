@@ -8,7 +8,7 @@
 
 1. Clone the repository: `git clone https://github.com/tavaresftw/calculator-fe.git`
 2. Navigate to the project directory: `cd calculator-fe`
-4. Start the services with Docker: `npm start`
+4. Start the app with: `npm start`
 
 ## Usage
 
