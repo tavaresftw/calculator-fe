@@ -1,5 +1,9 @@
 # Calculator
 
+## Introduction
+
+This project the Frontend of a web calculator that supports basic operations such as addition, subtraction, multiplication, and division, square root and generate random strings.
+
 ## Prerequisites
 - Node.js
 - React
