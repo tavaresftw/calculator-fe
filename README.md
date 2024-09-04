@@ -1,10 +1,15 @@
 # Calculator
 
+## Introduction
+
+This project the Frontend of a web calculator that supports basic operations such as addition, subtraction, multiplication, and division, square root and generate random strings.
+
 ## Prerequisites
 - Node.js
 - React
 
 ## Installation
+(To run it locally, use the DEVELOP Branch)
 
 1. Clone the repository: `git clone https://github.com/tavaresftw/calculator-fe.git`
 2. Navigate to the project directory: `cd calculator-fe`

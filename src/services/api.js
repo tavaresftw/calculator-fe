@@ -1,6 +1,6 @@
 import { createContext, useContext } from 'react';
 
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'https://calculator-be-43cb52ab7531.herokuapp.com';
 
 export const BalanceContext = createContext();
 
