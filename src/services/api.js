@@ -64,9 +64,9 @@ export const registerUser = async (username, password) => {
   }
 };
 
-export const getRecords = async (username, authToken, page = 0, size = 10) => {
+export const getRecords = async (username, authToken, page = 0, size = 10, sortBy = 'id', direction = 'desc', search = '') => {
   try {
-    const response = await fetch(`${API_BASE_URL}/operation/user/${username}?page=${page}&size=${size}`, {
+    const response = await fetch(`${API_BASE_URL}/operation/user/${username}?page=${page}&size=${size}&sortBy=${sortBy}&direction=${direction}&search=${search}`, {
       method: 'GET',
       headers: {
         'Authorization': authToken,
@@ -122,6 +122,25 @@ export const logout = async (authToken) => {
   } catch (error) {
     console.error('Error logging out:', error);
     return { status: 500 };
+  }
+};
+
+export const deleteRecord = async (recordId, authToken) => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/operation/record/${recordId}`, {
+      method: 'DELETE',
+      headers: {
+        'Authorization': authToken,
+        'Content-Type': 'application/json',
+      },
+    });
+
+    const data = await response.text();
+
+    return { status: response.status, data };
+  } catch (error) {
+    console.error('Error deleting record:', error);
+    return { status: 500, data: null };
   }
 };
 
